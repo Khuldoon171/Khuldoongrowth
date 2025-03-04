@@ -40,4 +40,4 @@ else:
             #footer
             st.write("- - -")
             st.write("Keep believing in youself. Growth is a journey, not a destination.")
-            st.write("⭐️ Created by [Khuldoon Ahmed]")
+            st.write("⭐️ Created by [Khuldoon Ahmed](https://github.com/Khuldoon171/Khuldoongrowth)")
