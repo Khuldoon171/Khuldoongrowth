@@ -16,28 +16,28 @@ user_input = st.text_input("Describe you are facing:")
 #condition
 
 if user_input:
-    st.sucess(f"you re facing:{user_input}.keep pushing forward towards your goals!")
+    st.success(f"You are facing: {user_input}. Keep pushing forward towards your goals!")
 else:
-    st.warning("tell us about your challenge today!")
+    st.warning("Tell us about your challenge today!")
 
-    #reflexing
-    st.header("Reflect on your challenge")
-    user_reflection = st.text_area("Write your reflection here:")
-    if user_reflection:
-        st.sucess(f"Great insight!your reflection:{user_reflection}")
-    else:
-        st.info("Reflecting on past experience help you grow! Share your difficulties")
+#reflecting
+st.header("Reflect on your challenge")
+user_reflection = st.text_area("Write your reflection here:")
+if user_reflection:
+    st.success(f"Great insight! Your reflection: {user_reflection}")
+else:
+    st.info("Reflecting on past experiences helps you grow! Share your difficulties.")
 
-        #achievment
-        st.header("Clerebrate your wins!")
-        user_achievment = st.text_input("Share something you are accomplished:")
+#achievement
+st.header("Celebrate your wins!")
+user_achievement = st.text_input("Share something you have accomplished:")
 
-        if user_achievment:
-            st.sucess(f"Awazing you are achieved:{user_achievment}")
-        else:
-            st.info("Big or small, every achievment counts")
+if user_achievement:
+    st.success(f"Amazing! You have achieved: {user_achievement}")
+else:
+    st.info("Big or small, every achievement counts.")
 
-            #footer
-            st.write("- - -")
-            st.write("Keep believing in youself. Growth is a journey, not a destination.")
-            st.write("⭐️ Created by [Khuldoon Ahmed](https://github.com/Khuldoon171/Khuldoongrowth)")
+#footer
+st.write("- - -")
+st.write("Keep believing in yourself. Growth is a journey, not a destination.")
+st.write("⭐️ Created by [![GitHub](https://img.shields.io/badge/GitHub-KhuldoonAhmed-blue?logo=github)](https://github.com/Khuldoon171/Khuldoongrowth)")
